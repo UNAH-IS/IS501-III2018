@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF63CC00-AE1D-0289-AE95-761DF64F1F9D" containerWithKeyObject="4E865249-2ED0-AC58-4C32-5AC09D46C21E" localFKIndex="FC8A0A4B-0ABC-C553-A12A-51880B8FE98D" name="TBL_REACCIONES_TBL_TIPOS_REACCIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:29:35 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_REACCIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>98018A34-0619-5460-C0DA-42D4B081737A</referredTableID>
+<keyObject>8D51647A-0BBA-7C80-AF41-06A22C24629E</keyObject>
+<referredKeyID>8D51647A-0BBA-7C80-AF41-06A22C24629E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_REACCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

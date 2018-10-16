@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBB26511-3990-A18E-3BDE-362A6FC3F9CC" name="TBL_TIPOS_LUGARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:48:41 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LUGAR" id="A7439125-884C-FC65-3239-4175EA6143F3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:49:09 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_LUGAR" id="736B87B1-D028-4401-F70D-D2F75F09036D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:49:09 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC9A9281-ED9E-39EF-A047-BEF2169996F8" name="TBL_TIPOS_LUGARES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:49:09 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7439125-884C-FC65-3239-4175EA6143F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEABC525-10FB-1357-2AE1-BAF8505BE202" name="TBL_SEGUIDORES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:25:05 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="DAB22571-40DF-31F2-4F34-79CD49522390">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:25:40 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECBE4E8A-126F-D576-096F-CCE210A9FA7F" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+<Column name="CODIGO_PAGINA" id="1627754B-C197-A2AF-9EAB-7CE3CE5367DA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:25:45 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BB284B7-AD67-FF22-3955-16F20100DC63" referredColumn="CECB130D-2E0A-0D31-1A6F-362A9603C0D4"/>
+</associations>
+</Column>
+<Column name="FECHA_SIGUE" id="5DEFD4EE-ED8A-89C4-ABB5-23F90CAA4CE3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:25:20 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOSTRAR_NOTIFICACIONES" id="EFCD877A-C8E9-4436-6FFC-730C6E63BC99">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:25:30 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF94C3F0-A4E8-2B9D-4F6B-0BCF685522F5" name="TBL_SEGUIDORES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:26:05 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAB22571-40DF-31F2-4F34-79CD49522390"/>
+<colUsage columnID="1627754B-C197-A2AF-9EAB-7CE3CE5367DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37E48565-1B21-29D2-AA4A-A3D73F547C59" name="TBL_SEGUIDORES_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:25:40 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAB22571-40DF-31F2-4F34-79CD49522390"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D83280B-26C4-F3CE-75DC-5C10E6C2FD19" name="TBL_SEGUIDORES_TBL_PAGINAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:25:45 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1627754B-C197-A2AF-9EAB-7CE3CE5367DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

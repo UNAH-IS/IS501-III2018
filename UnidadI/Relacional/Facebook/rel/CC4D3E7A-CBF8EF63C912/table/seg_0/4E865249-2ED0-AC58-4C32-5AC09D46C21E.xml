@@ -1,0 +1,238 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E865249-2ED0-AC58-4C32-5AC09D46C21E" name="TBL_REACCIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:08:52 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_REACCION" id="4383F2DF-7950-1D3B-A108-5B8CF504C5EF">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:10:08 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="B8CC671F-7EDA-3D4B-2CFB-796F57A6E7BA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:10:42 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9436C28-FAA8-EEE6-45B0-6D119E3066CA" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+<Column name="CODIGO_COMENTARIO" id="C100CD71-1D85-83A9-3AA5-034F5A0BCC7E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:12:00 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEB6BA74-F76E-F0A4-B052-5556BFB89F15" referredColumn="BB1830FD-D867-2654-6B46-B3D7EAB7F833"/>
+</associations>
+</Column>
+<Column name="CODIGO_IMAGEN" id="86D60208-F4FC-4FE9-95DF-D42908A1968C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:12:19 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A4C346E-96DD-058C-D45E-922E86C4933F" referredColumn="C981713D-64DC-0B26-CE90-DEE5441EE766"/>
+</associations>
+</Column>
+<Column name="CODIGO_POST" id="545D7C93-8F7D-411D-9C29-EFF50CE6AF9E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:12:59 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96300942-18EB-BCA6-B1E1-168431E6726B" referredColumn="25088303-0737-1277-2569-4CE114630590"/>
+</associations>
+</Column>
+<Column name="CODIGO_PAGINA" id="77599D57-30E4-BE07-233A-329A04952074">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:23:08 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B57D1A1-D5D8-0EE4-39E8-EB30F51D9B56" referredColumn="CECB130D-2E0A-0D31-1A6F-362A9603C0D4"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_REACCION" id="F7CF0C48-A1C6-459B-01D4-CAF89FB6EFD1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:29:35 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF63CC00-AE1D-0289-AE95-761DF64F1F9D" referredColumn="F58BC306-571E-B75D-478A-AFCB8A53F616"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA" id="6576CA8B-EF0E-A9FC-95D8-3D7B9DD2FC54">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:10:08 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D6344BD-5B24-C286-2462-FE108CE3F833" name="TBL_REACCIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:10:15 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4383F2DF-7950-1D3B-A108-5B8CF504C5EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A70E7C0B-332A-0ADF-092A-F37812738835" name="RESTRICCION1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:20:17 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8CC671F-7EDA-3D4B-2CFB-796F57A6E7BA"/>
+<colUsage columnID="545D7C93-8F7D-411D-9C29-EFF50CE6AF9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F850962-2047-8A0F-FBB4-082CDCFD203C" name="RESTRICCION2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:22:16 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8CC671F-7EDA-3D4B-2CFB-796F57A6E7BA"/>
+<colUsage columnID="86D60208-F4FC-4FE9-95DF-D42908A1968C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2CBA4BA-C570-F1D1-3C47-F636F6C01049" name="RESTRICCION3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:23:23 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8CC671F-7EDA-3D4B-2CFB-796F57A6E7BA"/>
+<colUsage columnID="C100CD71-1D85-83A9-3AA5-034F5A0BCC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69623B40-AD25-F934-4E10-3C2C49373F8E" name="RESTRICCION4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:24:15 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8CC671F-7EDA-3D4B-2CFB-796F57A6E7BA"/>
+<colUsage columnID="77599D57-30E4-BE07-233A-329A04952074"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03D7BF18-3C06-3774-34D3-39BC32A77229" name="TBL_REACCIONES_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:10:42 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8CC671F-7EDA-3D4B-2CFB-796F57A6E7BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43F595DC-94D7-F5B7-A2D1-8A3D07C76462" name="TBL_REACCIONES_TBL_COMENTARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:12:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C100CD71-1D85-83A9-3AA5-034F5A0BCC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E0694E5-2D1F-E156-FD58-799D2CAA5CAB" name="TBL_REACCIONES_TBL_IMAGENES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:12:19 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D60208-F4FC-4FE9-95DF-D42908A1968C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="654B218A-B58F-EDA4-0B49-9C8C34098097" name="TBL_REACCIONES_TBL_POSTS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:12:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="545D7C93-8F7D-411D-9C29-EFF50CE6AF9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC8A0A4B-0ABC-C553-A12A-51880B8FE98D" name="TBL_REACCIONES_TBL_TIPOS_REACCIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:29:35 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7CF0C48-A1C6-459B-01D4-CAF89FB6EFD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A16CCEE3-722A-81A8-2F7C-52AB8D81D26F" name="TBL_REACCIONES_TBL_PAGINAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:23:08 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77599D57-30E4-BE07-233A-329A04952074"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

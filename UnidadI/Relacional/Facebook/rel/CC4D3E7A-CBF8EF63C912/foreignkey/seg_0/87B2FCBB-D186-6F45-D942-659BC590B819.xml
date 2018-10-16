@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87B2FCBB-D186-6F45-D942-659BC590B819" containerWithKeyObject="5E12A6BC-E9D7-8C9C-56E7-06F9A25A37F4" localFKIndex="76FFF363-B58D-A8FE-B4D9-EF822BECE365" name="TBL_SOLICITUDES_AMISTAD_TBL_PARENTESCOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:42:52 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<referredTableLongName>TBL_PARENTESCOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DA85B63-C28C-6ECF-E502-3C4AD3F9F89C</referredTableID>
+<keyObject>499407CC-193B-D291-9664-615E8C71962C</keyObject>
+<referredKeyID>499407CC-193B-D291-9664-615E8C71962C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_PARENTESCO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

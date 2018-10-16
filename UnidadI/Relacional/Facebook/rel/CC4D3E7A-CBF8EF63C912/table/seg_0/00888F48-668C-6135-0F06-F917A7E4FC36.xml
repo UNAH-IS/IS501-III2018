@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00888F48-668C-6135-0F06-F917A7E4FC36" name="TBL_MUNICIPIOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-09-28 23:31:46 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MUNICIPIO" id="C1ABE2E9-C175-5BBA-9F54-314AF756EF72">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-09-28 23:33:30 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MUNICIPIO" id="A58B13B6-CA41-A555-F35B-9A8F118B696B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-09-28 23:33:30 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="376181D1-6BD6-BDF0-B173-59BD9E2F6FD6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-09-28 23:33:30 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="3F46F5B2-9EC1-D70D-67CC-9EC48C9D1D24">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-09-28 23:33:30 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20BE9C05-9B79-895F-5564-FB169FDF575E" name="TBL_MUNICIPIOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-09-28 23:33:30 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1ABE2E9-C175-5BBA-9F54-314AF756EF72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

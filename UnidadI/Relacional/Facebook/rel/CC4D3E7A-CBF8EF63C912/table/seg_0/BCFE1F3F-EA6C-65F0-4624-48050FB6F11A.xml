@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCFE1F3F-EA6C-65F0-4624-48050FB6F11A" name="TBL_LUGARES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:38:29 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="FE40213E-F4E3-6FD2-E85C-A8017EEA98F7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:39:45 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LUGAR" id="CEBBB97D-F69C-8BF5-F548-52C4A5247A9E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:39:45 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="7AFA7B0F-AB8A-832F-F941-44787774ED3C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:39:45 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="3CF6AEEF-DBDB-4366-55D5-AA9FB8732689">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:39:45 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="52691CD8-0362-73D0-C9EF-FB95140E0874">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:39:45 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="F1C7AA04-5922-D20A-FA07-BDE3C5E1DB71">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:40:02 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA7A4E9D-EDCC-C897-DF31-46F42478F0CA" referredColumn="FE40213E-F4E3-6FD2-E85C-A8017EEA98F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="D9E93D98-912A-70A2-538B-215B521730F9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:49:20 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74AE1273-555F-CCF9-033E-00FC2C448EE6" referredColumn="A7439125-884C-FC65-3239-4175EA6143F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E95ABDA4-78D6-83B1-5D4F-C663C96B87D7" name="TBL_LUGARES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:39:45 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE40213E-F4E3-6FD2-E85C-A8017EEA98F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E0C2D90-7153-7E64-DEF1-35F47884DAE2" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:40:02 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C7AA04-5922-D20A-FA07-BDE3C5E1DB71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C5EA6DB-9B9F-A140-9D4F-54678F783364" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-10 23:49:20 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9E93D98-912A-70A2-538B-215B521730F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

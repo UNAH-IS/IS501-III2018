@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="261EF44A-D83A-FE8C-44B6-7FDDF6D6E26C" name="TBL_VIDEOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 22:58:46 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VIDEO" id="41B2122F-74C7-C5ED-05B6-0BA0AFD59BFB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 22:59:33 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO_VIDEO" id="5D2DA9D6-7A50-0054-D437-468A9D04E18F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 22:59:33 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACION" id="B8151FFB-4342-8669-7180-CACE8D68B0BE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 22:59:33 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDEO" id="0BDCD7F3-9F40-DCC2-A2FC-106AB78FBD45">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 22:59:33 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="939A45D2-C778-C44E-6AD6-1537E797078B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:34:06 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCDDF56E-2536-2955-080C-F8A6280EC48C" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_REPRODUCCIONES" id="B3BACF85-B2FB-517C-17C0-5A9AE2CCBE6B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:52:48 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F195BEA9-6E9D-E911-8E13-AF9F347C9FE5" name="TBL_VIDEOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:33:25 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41B2122F-74C7-C5ED-05B6-0BA0AFD59BFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="833069AD-B26B-C47A-FFBA-A461C6E1704A" name="TBL_VIDEOS_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:34:06 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="939A45D2-C778-C44E-6AD6-1537E797078B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

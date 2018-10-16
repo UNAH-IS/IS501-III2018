@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5373BCB9-DAD0-4DEC-7CE7-9B03B3FE3E98" containerWithKeyObject="8FD99D55-65CC-6625-0390-6C46094FCC42" localFKIndex="479F0E23-4A25-0821-47F1-3A210C4DAD38" name="TBL_INSTITUCIONES_X_USUARIO_TBL_INSTITUCIONES_EDUCATIVAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:32:42 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<referredTableLongName>TBL_INSTITUCIONES_EDUCATIVAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92BDEBF7-FDFC-EA42-4378-C36BAB718F6F</referredTableID>
+<keyObject>53232F02-3DA2-4CB1-8921-F29457D5CC09</keyObject>
+<referredKeyID>53232F02-3DA2-4CB1-8921-F29457D5CC09</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_INSTITUCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

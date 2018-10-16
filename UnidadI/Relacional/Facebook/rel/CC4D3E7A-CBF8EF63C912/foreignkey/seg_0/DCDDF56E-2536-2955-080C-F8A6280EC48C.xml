@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCDDF56E-2536-2955-080C-F8A6280EC48C" containerWithKeyObject="261EF44A-D83A-FE8C-44B6-7FDDF6D6E26C" localFKIndex="833069AD-B26B-C47A-FFBA-A461C6E1704A" name="TBL_VIDEOS_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:34:06 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<referredTableLongName>TBL_USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4963554E-520C-EA71-6E09-CBD7D2E61B3D</referredTableID>
+<keyObject>A809094A-BCBA-2398-2C31-69A89DEF028A</keyObject>
+<referredKeyID>A809094A-BCBA-2398-2C31-69A89DEF028A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

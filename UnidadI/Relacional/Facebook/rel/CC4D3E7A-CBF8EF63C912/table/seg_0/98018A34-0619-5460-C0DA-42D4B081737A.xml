@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98018A34-0619-5460-C0DA-42D4B081737A" name="TBL_TIPOS_REACCIONES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:28:15 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_REACCION" id="F58BC306-571E-B75D-478A-AFCB8A53F616">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:29:23 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_REACCION" id="DF04B525-93DE-DE39-0C5D-CCCB53FEA157">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:29:23 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO" id="B14ACC3C-AD7C-308D-F193-A6E83FE6E08C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:29:23 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D51647A-0BBA-7C80-AF41-06A22C24629E" name="TBL_TIPOS_REACCIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:29:23 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F58BC306-571E-B75D-478A-AFCB8A53F616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

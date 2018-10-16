@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5B88AA6-3649-C3BA-EE1E-C9898A6ADF24" containerWithKeyObject="4963554E-520C-EA71-6E09-CBD7D2E61B3D" localFKIndex="133845F7-7D4D-284E-AA60-4FC61CD78B55" name="TBL_USUARIOS_TBL_MUNICIPIOS_FKv2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-09-28 23:35:18 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<referredTableLongName>TBL_MUNICIPIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00888F48-668C-6135-0F06-F917A7E4FC36</referredTableID>
+<keyObject>20BE9C05-9B79-895F-5564-FB169FDF575E</keyObject>
+<referredKeyID>20BE9C05-9B79-895F-5564-FB169FDF575E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_MUNICIPIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

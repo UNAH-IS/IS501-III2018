@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96300942-18EB-BCA6-B1E1-168431E6726B" containerWithKeyObject="4E865249-2ED0-AC58-4C32-5AC09D46C21E" localFKIndex="654B218A-B58F-EDA4-0B49-9C8C34098097" name="TBL_REACCIONES_TBL_POSTS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:12:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<referredTableLongName>TBL_POSTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB075CB8-1849-B614-95E6-55774316BB11</referredTableID>
+<keyObject>46EE8D59-9D4B-30CE-42B2-191AEF598B65</keyObject>
+<referredKeyID>46EE8D59-9D4B-30CE-42B2-191AEF598B65</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_POST</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

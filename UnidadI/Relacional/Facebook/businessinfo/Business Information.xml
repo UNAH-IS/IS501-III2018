@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="E3BEFA0A-2590-6E4B-570A-2F779AA4D860">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-09-28 23:06:26 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

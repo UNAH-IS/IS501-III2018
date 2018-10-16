@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBB7770D-16BB-B007-C6C4-E43C6F84C12C" containerWithKeyObject="F5020E01-8D94-43BD-A65F-F229E4DF8E5F" localFKIndex="FAEB2908-DAB7-5CD5-4780-A2F5C2274731" name="TBL_ADMINISTRADORES_PAGINAS_TBL_PAGINAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:16:31 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<referredTableLongName>TBL_PAGINAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2BEDC867-A7D3-16C0-9C61-2A5874393992</referredTableID>
+<keyObject>6D6466CF-A65D-A2A9-490D-AE10EBEC4199</keyObject>
+<referredKeyID>6D6466CF-A65D-A2A9-490D-AE10EBEC4199</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PAGINA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBD20008-B254-69AE-44C0-5F8D11D4498D" name="TBL_COMENTARIOS">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:29:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="BB1830FD-D867-2654-6B46-B3D7EAB7F833">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:30:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="A81FA049-FED5-650D-F1B2-F91A5931E000">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:31:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E5D3334D-10E3-F9DD-26F4-4602B52D35E1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22208A10-E561-7B2C-2926-8A8FBF133C3D" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+<Column name="CODIGO_POST" id="D53AB5E8-8A75-0EBB-452F-9AB8F388125C">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:31:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>25088303-0737-1277-2569-4CE114630590</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6370D011-ACBF-6125-0586-7745F6962C7E" referredColumn="25088303-0737-1277-2569-4CE114630590"/>
+</associations>
+</Column>
+<Column name="CODIGO_IMAGEN" id="6242E8C9-D76B-BF10-6BD8-4BB33DCA95C0">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:35:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C981713D-64DC-0B26-CE90-DEE5441EE766</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C27D178-9369-C7FA-EA60-35ABE62A57FC" referredColumn="C981713D-64DC-0B26-CE90-DEE5441EE766"/>
+</associations>
+</Column>
+<Column name="CODIGO_COMENTARIO_PADRE" id="41FEACCD-8AED-96FE-A8D8-FF8B293CC9A0">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:45:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BB1830FD-D867-2654-6B46-B3D7EAB7F833</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D44DDDB8-2A74-C1F0-C9E3-7082A4DBEA61" referredColumn="BB1830FD-D867-2654-6B46-B3D7EAB7F833"/>
+</associations>
+</Column>
+<Column name="COMENTARIO" id="62645B90-E218-7036-F4C6-49899F70C871">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:30:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_COMENTARIO" id="3D83B144-EE6D-97C5-72EE-EC256ACF7451">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:30:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F27466C9-1C50-328D-816E-866F9E4CCA41" name="TBL_COMENTARIOS_PK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:30:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB1830FD-D867-2654-6B46-B3D7EAB7F833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B11F104D-E97A-CBC7-EFE2-963374905F06" name="TBL_COMENTARIOS_TBL_USUARIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:31:28 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A81FA049-FED5-650D-F1B2-F91A5931E000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A9C8641-1D06-4F56-5C29-12B05B7DF559" name="TBL_COMENTARIOS_TBL_POSTS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:31:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D53AB5E8-8A75-0EBB-452F-9AB8F388125C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE6CA1B2-1A17-FA93-4800-D61B1FBB3F7C" name="TBL_COMENTARIOS_TBL_IMAGENES_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:35:48 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6242E8C9-D76B-BF10-6BD8-4BB33DCA95C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6188391-B19E-DAC8-EE2E-32F008439D6F" name="TBL_COMENTARIOS_TBL_COMENTARIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:45:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41FEACCD-8AED-96FE-A8D8-FF8B293CC9A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

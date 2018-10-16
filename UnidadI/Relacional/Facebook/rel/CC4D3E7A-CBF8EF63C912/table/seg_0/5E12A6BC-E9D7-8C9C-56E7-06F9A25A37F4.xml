@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E12A6BC-E9D7-8C9C-56E7-06F9A25A37F4" name="TBL_SOLICITUDES_AMISTAD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:37:50 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SOLICITUD" id="36FEA4C8-370A-1040-E84D-8E872C105546">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:38:28 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_ENVIA" id="1D3872F3-3550-9AAB-9FA6-868D8523375A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:38:41 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C891D7EC-58AB-0440-DCE3-F4831066C1CA" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_RECIBE" id="06876BC0-B1A7-5422-5A70-829C46894A87">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:38:50 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F79F6285-0F91-C943-3420-D6209C309A7B" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA" id="252F8E48-9B8B-859E-8EAE-EE40A9A80C83">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:38:28 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ESTADO" id="4E6BAAB6-D65A-2941-4176-1FF0D1A27884">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:40:50 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46AD2F7B-6B25-84EB-6700-AC11771215A2" referredColumn="A20FB7D9-BF6D-602E-E387-650EBD13F9DF"/>
+</associations>
+</Column>
+<Column name="CODIGO_PARENTESCO" id="697F8FED-8603-8526-ADE0-3385B28A818B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:42:52 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87B2FCBB-D186-6F45-D942-659BC590B819" referredColumn="B176E33A-CD5E-F329-0BD9-412D89548BE7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B78E89C-B808-C265-C7E1-9E4E34F81948" name="TBL_SOLICITUDES_AMISTAD_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:38:28 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36FEA4C8-370A-1040-E84D-8E872C105546"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CE45EC1-18BE-4EA3-4E51-10ABAE69EB2A" name="TBL_SOLICITUDES_AMISTAD_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:38:41 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D3872F3-3550-9AAB-9FA6-868D8523375A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6BD0EA2-058C-9721-2218-3DB3D1E4AB64" name="TBL_SOLICITUDES_AMISTAD_TBL_USUARIOS_FKv2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:38:50 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06876BC0-B1A7-5422-5A70-829C46894A87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="054C16DE-E6FA-4BB1-1558-E26779F17979" name="TBL_SOLICITUDES_AMISTAD_TBL_ESTADOS_SOLICITUDES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:40:50 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E6BAAB6-D65A-2941-4176-1FF0D1A27884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76FFF363-B58D-A8FE-B4D9-EF822BECE365" name="TBL_SOLICITUDES_AMISTAD_TBL_PARENTESCOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-11 23:42:52 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="697F8FED-8603-8526-ADE0-3385B28A818B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

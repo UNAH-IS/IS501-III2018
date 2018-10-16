@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BEDC867-A7D3-16C0-9C61-2A5874393992" name="TBL_PAGINAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 19:56:12 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAGINA" id="CECB130D-2E0A-0D31-1A6F-362A9603C0D4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 20:11:40 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PAGINA" id="C8C93AEE-866A-AF75-B3E9-B9881C62884B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 20:11:40 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="19C0FE00-256B-5547-EA7E-5340155D6C1D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 20:11:40 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="9C111FFC-9A07-3238-345F-F2B4F474D9D8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 20:11:40 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_CREADOR" id="96AC9EF5-4371-B082-9F4A-549CE368721A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:14:49 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F31DF17-67D6-E94B-8F1B-757B0C845979" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D6466CF-A65D-A2A9-490D-AE10EBEC4199" name="TBL_PAGINAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 20:11:40 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CECB130D-2E0A-0D31-1A6F-362A9603C0D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C5DFDF4-1DC2-2418-46B1-4291B0B8B43B" name="TBL_PAGINAS_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:14:49 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96AC9EF5-4371-B082-9F4A-549CE368721A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

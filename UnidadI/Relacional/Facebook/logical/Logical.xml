@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C8F719AD-778E-0B31-EDCD-F54CE0B2D4B5" mainViewID="1BAF5415-4850-618C-5EC8-742275E97144">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-09-28 23:06:26 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

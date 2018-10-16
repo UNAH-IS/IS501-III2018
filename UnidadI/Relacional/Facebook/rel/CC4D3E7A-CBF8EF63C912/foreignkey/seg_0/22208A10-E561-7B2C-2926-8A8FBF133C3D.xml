@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22208A10-E561-7B2C-2926-8A8FBF133C3D" name="TBL_COMENTARIOS_TBL_USUARIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:31:28 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<containerWithKeyObject>DBD20008-B254-69AE-44C0-5F8D11D4498D</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>B11F104D-E97A-CBC7-EFE2-963374905F06</localFKIndex>
+<keyObject>A809094A-BCBA-2398-2C31-69A89DEF028A</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6268DDA3-8386-D428-270F-FDD8C9A8CED8" containerWithKeyObject="014B0006-8D5E-3D8D-6B4F-83E7ED98EB44" localFKIndex="6B51B39E-86D7-6C42-FAE6-2BF9FFBB6BBE" name="TBL_VISUALIZACIONES_VIDEOS_TBL_VIDEOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:43:41 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<referredTableLongName>TBL_VIDEOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>261EF44A-D83A-FE8C-44B6-7FDDF6D6E26C</referredTableID>
+<keyObject>F195BEA9-6E9D-E911-8E13-AF9F347C9FE5</keyObject>
+<referredKeyID>F195BEA9-6E9D-E911-8E13-AF9F347C9FE5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_VIDEO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

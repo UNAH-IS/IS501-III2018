@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D397283C-B047-F77C-4B55-282528B64316" name="TBL_MENSAJES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 19:54:55 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MENSAJE" id="99A503D1-1124-BB8A-745C-0D769AD04A38">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 19:55:43 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_EMISOR" id="E2809C55-7549-89F9-D9B8-40B67F39BE9E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:13:21 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE2D4FE9-F7A6-0C0E-0755-9C02589D4AFD" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_RECEPTOR" id="77F89B35-1941-5A63-C735-1DEE2578C945">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:13:28 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1E7A597-E2EF-E5C7-2553-B4B881C90562" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+<Column name="FECHA_MENSAJE" id="50A7DBF9-921A-AB88-4D53-5D0CFCB01896">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 19:55:43 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE" id="AFCF61BE-850F-7571-749C-0254D0889D12">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 19:55:43 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61AA1598-8142-14D4-EC46-2E3D2E8FBE36" name="TBL_MENSAJES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 19:55:43 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A503D1-1124-BB8A-745C-0D769AD04A38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AAA36E3-FACB-C20E-A2F1-77534CBF2140" name="TBL_MENSAJES_TBL_USUARIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:13:21 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2809C55-7549-89F9-D9B8-40B67F39BE9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="025B7A09-909F-A0EF-07DC-552302D2A440" name="TBL_MENSAJES_TBL_USUARIOS_FKv2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:13:28 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77F89B35-1941-5A63-C735-1DEE2578C945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

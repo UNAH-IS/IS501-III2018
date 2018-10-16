@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB075CB8-1849-B614-95E6-55774316BB11" name="TBL_POSTS">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:18:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_POST" id="25088303-0737-1277-2569-4CE114630590">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:19:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="4F13B6E5-BE59-7236-214F-0965F66D71FA">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:20:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA2E2FE2-F559-6C1C-D3C0-FC4EFEAD1997" referredColumn="E5D3334D-10E3-F9DD-26F4-4602B52D35E1"/>
+</associations>
+</Column>
+<Column name="CODIGO_PAGINA" id="97FF7C0B-28C5-8DCA-CA55-1AF4E26EB61D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:29:18 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A66C767-9D7C-89D5-C451-728A4A7C986A" referredColumn="CECB130D-2E0A-0D31-1A6F-362A9603C0D4"/>
+</associations>
+</Column>
+<Column name="POST" id="88BFE7B2-1D6F-C426-7F9C-9DAEFAA1DEBC">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:19:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_REGISTRO" id="1A10B115-6D86-3857-941A-31C3D387B682">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:19:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46EE8D59-9D4B-30CE-42B2-191AEF598B65" name="TBL_POSTS_PK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:19:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Facebook</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25088303-0737-1277-2569-4CE114630590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4A2CA3F-D6B1-4193-9826-55CA46BAF2B5" name="TBL_POSTS_TBL_USUARIOS_FK">
+<createdBy>Dell E6420</createdBy>
+<createdTime>2018-10-09 23:20:17 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F13B6E5-BE59-7236-214F-0965F66D71FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C213921-9B12-B736-545E-4E222D330AC9" name="TBL_POSTS_TBL_PAGINAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-15 23:29:18 UTC</createdTime>
+<ownerDesignName>Facebook</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97FF7C0B-28C5-8DCA-CA55-1AF4E26EB61D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

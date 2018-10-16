@@ -17,3 +17,12 @@ Llave Primaria:
 
 Llave Foranea:
     Es un campo o conjunto campos que provienen de otra tabla para establecer una relacion.
+
+
+Pasos o guía para crear un modelo relacional:
+
+1. Listar tablas o entidades
+2. Listar atributos de las tablas
+3. Crear relaciones basicas de las tablas encontradas
+4. Identificar atributos que deberían ser nuevas tablas o entidades (Normalizar)
+5. Repetir en caso de ser necesario.
