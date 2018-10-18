@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1BDB067-26BA-0007-C878-C2416EC48E2A" name="TBL_PERSONAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:20:40 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERSONA" id="AB8668D4-775C-F3ED-CCD4-859B2639602F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:00 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="8899AC7D-3459-D7D5-CB11-95580D19ABB6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:00 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="CD86A081-D579-158A-11E3-42BC3C5922AD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:00 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="FC79D723-4C21-8486-99CA-E81A294FCEE1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:00 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INGRESO" id="E2D96534-9696-BE5C-AAE2-59F9DB4B6463">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:00 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDENTIFICACION" id="B47D1B4F-C996-0B4D-0DAF-F4C870B6C47B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:00 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="60AAAFCE-AFE7-5555-9214-21947213DE61">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:00 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="3A30B49E-C865-4F93-F50A-B27D721403E3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:00 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C22A49E6-44BF-96B1-BE33-4C090D7D0A12" name="TBL_PERSONAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:00 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB8668D4-775C-F3ED-CCD4-859B2639602F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

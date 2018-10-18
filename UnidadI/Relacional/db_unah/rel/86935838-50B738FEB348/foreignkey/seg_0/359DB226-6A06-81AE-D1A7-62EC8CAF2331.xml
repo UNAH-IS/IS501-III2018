@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="359DB226-6A06-81AE-D1A7-62EC8CAF2331" containerWithKeyObject="B0F9AE43-A0C6-E714-156E-43D1C31B6ADD" localFKIndex="99A63150-C682-C757-0B8A-AB69357D8230" name="TBL_CARRERAS_TBL_GRADOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:52:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<referredTableLongName>DB_UNAH.TBL_GRADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5B9CF3F7-60DF-C227-636F-DB0AB925DB42</referredTableID>
+<keyObject>2D4112A5-7FB5-5361-AE4D-907BDFA428F3</keyObject>
+<referredKeyID>2D4112A5-7FB5-5361-AE4D-907BDFA428F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_GRADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

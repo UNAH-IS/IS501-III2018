@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="005E9C26-3402-3A61-1224-CBDF4A858A35" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_CARRERAS_X_MAESTRO">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:46:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERSONA" id="03EC45FE-D006-DE84-B13F-BE24FC2CCCCB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:53:16 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80553EB1-04C8-E44A-3762-F3B21F4EA014" referredColumn="5B46B2EA-63BD-50F2-178E-521D814504F5"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="CA66364B-AC70-EC62-AE8A-10D58E485F5E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:53:20 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F8F7B17-EACA-BDA8-F475-289A0E4360D7" referredColumn="CE3AA321-17A9-6F83-FB79-CAE8AC08E8B5"/>
+</associations>
+</Column>
+<Column name="FECHA_REGISTRO_CARRERA" id="73F030AF-3FC6-C8B5-08FE-0E4E5F133954">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:46:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_CLASES" id="EA6B4597-4374-DA8E-E831-595895180028">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-26 23:46:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFCE7A77-DBD1-885D-29C6-E53842A9F0DD" name="TBL_CARRERAS_X_MAESTRO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:54:00 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA66364B-AC70-EC62-AE8A-10D58E485F5E"/>
+<colUsage columnID="03EC45FE-D006-DE84-B13F-BE24FC2CCCCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18F50A3B-759E-F0AD-E0BB-82A23AF258E4" name="TBL_CARRERAS_X_MAESTRO_TBL_MAESTROS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:53:16 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03EC45FE-D006-DE84-B13F-BE24FC2CCCCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2373C5EE-8203-A185-B5B5-7C923393440F" name="TBL_CARRERAS_X_MAESTRO_TBL_CARRERAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:53:20 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA66364B-AC70-EC62-AE8A-10D58E485F5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

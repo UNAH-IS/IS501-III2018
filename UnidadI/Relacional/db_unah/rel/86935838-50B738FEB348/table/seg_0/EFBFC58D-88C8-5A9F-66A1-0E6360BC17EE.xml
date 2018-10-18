@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFBFC58D-88C8-5A9F-66A1-0E6360BC17EE" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_OBSERVACIONES_HISTORIAL">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:14:26 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_OBSERVACION" id="01CA00C0-3595-A7CC-6DE6-8B2B75DA321B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:15:03 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_OBSERVACION" id="11F036E5-5320-BBED-11BC-1A2254F0A640">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:15:03 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81DEA37F-B0B5-5CFA-B5B0-3B8AC3A72482" name="TBL_OBSERVACIONES_HISTORIAL_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:15:23 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01CA00C0-3595-A7CC-6DE6-8B2B75DA321B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

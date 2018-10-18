@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A226960-BB10-08B4-B327-A2E1761DB0CC" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_ASIGNATURAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:18:11 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ASIGNATURA" id="4FFD730C-9D87-AF90-80DD-72C4645B0D59">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ALTERNO" id="B215ECC9-018E-1671-79C7-BA0976F1D13F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_ASIGNATURA" id="33EE7071-4F47-DDF9-2CCF-6C103351D792">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:48:02 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36880151-F673-239D-A9A5-E9E941C85B95" referredColumn="FE8AF435-5A22-0B44-3717-F25532FCADE3"/>
+</associations>
+</Column>
+<Column name="CODIGO_AREA" id="900E213E-2256-5894-540C-2A0480BBBF64">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:49:39 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="371347D5-60DE-3083-2A6B-E089ECB0251F" referredColumn="71D2D9B1-44B8-0969-1AA9-C68B1668B19E"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="D2977AFE-4515-2779-4CE0-F7266AD322C3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:51:03 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B12062F7-98CC-E3F4-5F40-4B0117D6D8DE" referredColumn="CE3AA321-17A9-6F83-FB79-CAE8AC08E8B5"/>
+</associations>
+</Column>
+<Column name="NOMBRE_ASIGNATURA" id="DDC38D0E-6C51-C6F7-B19C-5D0BA832CE55">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_UNIDADES_VALORATIVAS" id="FFBCA58A-7EBB-9FAD-8BA6-2614ACE84227">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAS" id="E7F0AEFE-58BB-67DD-9CF8-44D31682F231">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9738748F-EB26-0C73-5A22-49C42CD04CB0" name="TBL_ASIGNATURAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:24:08 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FFD730C-9D87-AF90-80DD-72C4645B0D59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="026CBBCE-F3B2-27B7-383F-D21EDA4CFE8C" name="TBL_ASIGNATURAS_TBL_TIPO_ASIGNATURA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:48:02 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33EE7071-4F47-DDF9-2CCF-6C103351D792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8791DC22-74DB-F43B-C79E-C11F03538DF6" name="TBL_ASIGNATURAS_TBL_AREAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:49:39 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="900E213E-2256-5894-540C-2A0480BBBF64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FE50EC1-72F1-DDF3-D008-32EA38E98B08" name="TBL_ASIGNATURAS_TBL_CARRERAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:51:03 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2977AFE-4515-2779-4CE0-F7266AD322C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

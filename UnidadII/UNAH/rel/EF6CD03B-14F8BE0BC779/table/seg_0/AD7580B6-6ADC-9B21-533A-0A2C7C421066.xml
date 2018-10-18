@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD7580B6-6ADC-9B21-533A-0A2C7C421066" name="TBL_ALUMNOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:22:18 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERSONA" id="D85D2199-78B0-339F-A6CF-7AF0430AEEC0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:24:18 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCA00914-D358-A394-2FE1-DE27A65FB164" referredColumn="AB8668D4-775C-F3ED-CCD4-859B2639602F"/>
+</associations>
+</Column>
+<Column name="NUMERO_CUENTA" id="1400C85A-1996-18F8-BE02-F5955A5AC856">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:23:06 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_INSTITUCIONAL" id="B2D7CFCB-F93B-7EF0-0145-1CF74EE69CF7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:23:06 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93E253C3-2350-4176-0281-A44330B6A487" name="TBL_ALUMNOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:28:42 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D85D2199-78B0-339F-A6CF-7AF0430AEEC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="520D36EE-7A21-D7F7-4C1C-06EE46D10331" name="TBL_ALUMNOS_TBL_PERSONAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-16 23:24:18 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D85D2199-78B0-339F-A6CF-7AF0430AEEC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

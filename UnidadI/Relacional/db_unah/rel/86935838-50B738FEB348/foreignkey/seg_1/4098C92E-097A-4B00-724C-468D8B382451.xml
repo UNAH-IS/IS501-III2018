@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="4098C92E-097A-4B00-724C-468D8B382451" containerWithKeyObject="5601F028-F373-6C04-1532-387BCE218FF6" localFKIndex="E800F3F8-77E7-4DEB-B278-2EEDC5F32963" name="TBL_PLAZAS_TBL_CARGOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-17 23:35:10 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<referredTableLongName>DB_UNAH.TBL_CARGOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A0795BE-49F0-DFB9-B59A-9221F705943C</referredTableID>
+<keyObject>24E64185-7936-627F-5975-6B7F83B60896</keyObject>
+<referredKeyID>24E64185-7936-627F-5975-6B7F83B60896</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_CARGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

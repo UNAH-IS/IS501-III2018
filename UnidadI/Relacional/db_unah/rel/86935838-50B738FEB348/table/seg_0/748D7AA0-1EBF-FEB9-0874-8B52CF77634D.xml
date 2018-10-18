@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="748D7AA0-1EBF-FEB9-0874-8B52CF77634D" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_HISTORIAL">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:17:28 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HISTORIAL" id="0C0D50A2-E65D-3DAB-4281-E9ADDC336541">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:19:14 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA" id="0BF8E73B-D957-AE98-3473-21E345C1C917">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:18:23 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB3D88C8-291B-4141-173A-4F057A2EACDB" name="TBL_HISTORIAL_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-28 23:19:14 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C0D50A2-E65D-3DAB-4281-E9ADDC336541"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19B29D44-75E0-4E85-AEDB-328DA3C24823" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_MATRICULA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:35:51 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERSONA" id="8F6A8CB4-49EE-9A29-3019-864FD38048E2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:35:15 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_SECCION" id="1A9866B5-EE1C-AC6F-44E7-4A5F9EA6BEBB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:35:22 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_MATRICULA" id="9C2BF400-D8AA-0B08-FE24-74E97324645F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:37:17 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDEN" id="62F9EB70-0753-6C50-1F3D-AD6C83588BC5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:41:05 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE052714-FFC8-B3B1-4537-1155D98C823C" name="TBL_MATRICULA_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-06-27 23:37:18 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F6A8CB4-49EE-9A29-3019-864FD38048E2"/>
+<colUsage columnID="1A9866B5-EE1C-AC6F-44E7-4A5F9EA6BEBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

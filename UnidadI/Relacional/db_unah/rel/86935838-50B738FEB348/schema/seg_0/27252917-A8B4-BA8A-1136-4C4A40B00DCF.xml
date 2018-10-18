@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="DB_UNAH" directorySegmentName="seg_0" id="27252917-A8B4-BA8A-1136-4C4A40B00DCF">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-07-04 23:30:38 UTC</createdTime>
+<ownerDesignName>UNAH</ownerDesignName>
+<ordsAlias>schema_1</ordsAlias>
+</SchemaObject>
