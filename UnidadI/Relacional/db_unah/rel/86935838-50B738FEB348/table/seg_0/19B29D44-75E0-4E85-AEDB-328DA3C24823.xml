@@ -8,9 +8,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_PERSONA" id="8F6A8CB4-49EE-9A29-3019-864FD38048E2">
+<Column name="CODIGO_PERSONA_ALUMNO" id="0F3749C8-C977-8ACA-8E84-1B95051542E4">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2018-06-27 23:35:15 UTC</createdTime>
+<createdTime>2018-10-18 23:29:21 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,10 +18,13 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93D6FB6F-2FEF-36DC-353F-2B84FEC40092" referredColumn="A3832FA9-569D-4224-2295-85D3F05D214B"/>
+</associations>
 </Column>
-<Column name="CODIGO_SECCION" id="1A9866B5-EE1C-AC6F-44E7-4A5F9EA6BEBB">
+<Column name="CODIGO_SECCION" id="C6CE6A26-979A-0A60-A0EC-AE7C14462AFB">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2018-06-27 23:35:22 UTC</createdTime>
+<createdTime>2018-10-18 23:29:09 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,6 +32,23 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9C804DF-BE92-B038-7132-3F91F6462B7E" referredColumn="DCC3641B-1FFD-5B2E-D117-B31958892A16"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_MATRICULA" id="2DE3136A-D35E-CD4B-018F-BDA2999F72FA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:39:24 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8DF4129-2539-5722-9C01-5D064520BBC2" referredColumn="B4340AF6-0604-0A8B-53BE-27FAAA4C89BE"/>
+</associations>
 </Column>
 <Column name="FECHA_MATRICULA" id="9C2BF400-D8AA-0B08-FE24-74E97324645F">
 <createdBy>ErickVladimir</createdBy>
@@ -54,16 +74,46 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BE052714-FFC8-B3B1-4537-1155D98C823C" name="TBL_MATRICULA_PK">
+<ind_PK_UK id="572A302E-EC0F-ED43-9BBD-33BDD12A4270" name="TBL_MATRICULA_PK">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2018-06-27 23:37:18 UTC</createdTime>
+<createdTime>2018-10-18 23:35:49 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8F6A8CB4-49EE-9A29-3019-864FD38048E2"/>
-<colUsage columnID="1A9866B5-EE1C-AC6F-44E7-4A5F9EA6BEBB"/>
+<colUsage columnID="C6CE6A26-979A-0A60-A0EC-AE7C14462AFB"/>
+<colUsage columnID="0F3749C8-C977-8ACA-8E84-1B95051542E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E773AF8-8A3B-0292-1E92-18E2A35C8E6F" name="TBL_MATRICULA_TBL_SECCION_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:29:09 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6CE6A26-979A-0A60-A0EC-AE7C14462AFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="133A1CCE-170E-E783-19E7-8502E62EDD38" name="TBL_MATRICULA_TBL_ALUMNOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:29:21 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3749C8-C977-8ACA-8E84-1B95051542E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B704D7F6-BA94-0A3F-D2D6-483A5D2C9E64" name="TBL_MATRICULA_TBL_ESTADOS_MATRICULA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:39:24 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DE3136A-D35E-CD4B-018F-BDA2999F72FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -29,6 +29,62 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_ASIGNATURA" id="6D6EE078-DDA6-0F4E-F000-59EED11EC2BE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:20:15 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F45F1EF0-9C6E-2CB6-4F93-B58EC5211C84" referredColumn="4FFD730C-9D87-AF90-80DD-72C4645B0D59"/>
+</associations>
+</Column>
+<Column name="CODIGO_AULA" id="9618AD7A-9A27-3F3F-26F4-C3CBBF24BFF3">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:20:25 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2548D6E-B168-1E77-2A34-AE9176FBA315" referredColumn="E53C0A28-88F1-2BD7-B0B3-66F444B2AC65"/>
+</associations>
+</Column>
+<Column name="CODIGO_PERSONA_MAESTRO" id="8D9E4BEB-0EF2-DB80-B7D6-313A988E771E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:23:06 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88BD9476-1093-167E-8C5C-4A933E2558C4" referredColumn="5B46B2EA-63BD-50F2-178E-521D814504F5"/>
+</associations>
+</Column>
+<Column name="CODIGO_PERIODO" id="1FE5904F-738D-6675-36B7-3F87B26072B5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:26:28 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B43D38F4-9944-C4FD-AC5A-66F95554D36D" referredColumn="3D1D63DE-AAB2-A518-01F4-506172C88416"/>
+</associations>
+</Column>
 <Column name="HORA_INICIO" id="33A1C9C8-4B9C-4851-4F9B-9084A0E4531C">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-08 19:17:07 UTC</createdTime>
@@ -85,6 +141,46 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DCC3641B-1FFD-5B2E-D117-B31958892A16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37995E66-EB31-B710-85A2-59BD956FEB32" name="TBL_SECCION_TBL_ASIGNATURAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:20:15 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D6EE078-DDA6-0F4E-F000-59EED11EC2BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAB65BC7-438A-0412-C06F-D6AF05B343CD" name="TBL_SECCION_TBL_AULAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:20:25 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9618AD7A-9A27-3F3F-26F4-C3CBBF24BFF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D097C54B-866B-D790-BEB2-6850456332D4" name="TBL_SECCION_TBL_MAESTROS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:23:06 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D9E4BEB-0EF2-DB80-B7D6-313A988E771E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAF9560C-FB0C-E495-5B9F-CF2131ED17C8" name="TBL_SECCION_TBL_PERIODOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:26:28 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FE5904F-738D-6675-36B7-3F87B26072B5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

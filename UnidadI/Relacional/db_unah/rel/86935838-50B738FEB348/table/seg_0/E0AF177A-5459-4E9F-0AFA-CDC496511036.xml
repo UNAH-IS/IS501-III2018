@@ -18,6 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_HISTORIAL" id="FCB3317A-030B-58DC-4BF8-12CFF97A39DA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-19 23:11:34 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04738416-38C1-7DE1-8817-1C6386056226" referredColumn="0C0D50A2-E65D-3DAB-4281-E9ADDC336541"/>
+</associations>
+</Column>
 <Column name="VALOR_NOTA" id="B56210B4-CEB3-C713-08AA-A818E7222F3E">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-10 19:23:09 UTC</createdTime>
@@ -27,6 +41,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_EVALUACION" id="0674800F-8C49-9D23-AC72-33A8402E22BC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-19 23:12:06 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FEFAD76-40BC-D5B0-AD3F-9B661C4A5BAA" referredColumn="244BFFF9-E6EE-D24A-C844-B77E784FCC72"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -39,6 +67,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="77C81FB8-617A-352A-6089-BCDF23D5E8D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56D9099A-5760-DC43-4132-4D0B9C10BD9B" name="TBL_DETALLE_EVALUACION_TBL_HISTORIAL_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-19 23:11:34 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCB3317A-030B-58DC-4BF8-12CFF97A39DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42C3A8E2-1183-2428-E861-D2F78D008F39" name="TBL_DETALLE_EVALUACION_TBL_TIPOS_EVALUACIONES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-19 23:12:06 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0674800F-8C49-9D23-AC72-33A8402E22BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

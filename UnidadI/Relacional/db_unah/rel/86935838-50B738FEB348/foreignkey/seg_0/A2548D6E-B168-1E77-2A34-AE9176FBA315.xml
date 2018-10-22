@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2548D6E-B168-1E77-2A34-AE9176FBA315" containerWithKeyObject="7E943C6F-ACFC-61F2-7E07-97944ADC694D" localFKIndex="EAB65BC7-438A-0412-C06F-D6AF05B343CD" name="TBL_SECCION_TBL_AULAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:20:25 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<referredTableLongName>DB_UNAH.TBL_AULAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>092499D4-4CAC-A92B-895A-D545AEE60144</referredTableID>
+<keyObject>96BADB64-6895-4C62-CD53-E3CFAD4990BF</keyObject>
+<referredKeyID>96BADB64-6895-4C62-CD53-E3CFAD4990BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_AULA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

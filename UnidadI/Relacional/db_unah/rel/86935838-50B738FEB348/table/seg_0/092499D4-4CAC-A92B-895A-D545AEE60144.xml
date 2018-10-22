@@ -18,6 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_TIPO_AULA" id="7FC9A6E2-94E2-4AD5-7ADB-C42E63428482">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:24:57 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38846D78-9358-FBB4-5B1F-AD02F73A6723" referredColumn="48E5988D-1F36-EA22-5F5F-D7D5BBF75439"/>
+</associations>
+</Column>
 <Column name="NUMERO_AULA" id="8B0E5E5F-6D58-83B5-451F-CF43AD7F54C7">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-08 15:43:40 UTC</createdTime>
@@ -28,6 +42,20 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EDIFICIO" id="D9614FE5-8FA2-29A6-DEF9-B012D1FB031E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:20:53 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92FD03CB-3D03-00EC-0F72-62F0BBCEB168" referredColumn="8B0123A7-4165-ED45-0AF9-3FAA289E2473"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -40,6 +68,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E53C0A28-88F1-2BD7-B0B3-66F444B2AC65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E8102DC-4CF2-0271-64A0-A187687471F8" name="TBL_AULAS_TBL_EDIFICIOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:20:53 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9614FE5-8FA2-29A6-DEF9-B012D1FB031E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15267577-66DD-B823-B41B-335E488FA9C8" name="TBL_AULAS_TBL_TIPOS_AULAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:24:57 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FC9A6E2-94E2-4AD5-7ADB-C42E63428482"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

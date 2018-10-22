@@ -18,6 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_CAMPUS" id="56B31C77-6457-3D95-9F7C-7947E2DE59C1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:24:16 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBBC9765-0AA9-E46B-8FE3-AA7A00660724" referredColumn="03FC2DEA-D2D2-3A3E-CD59-64F85DE01F84"/>
+</associations>
+</Column>
 <Column name="NOMBRE_EDIFICIO" id="C930B5C9-8A43-1091-CBB0-DBDE5F3A0AA0">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-08 15:45:14 UTC</createdTime>
@@ -53,6 +67,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8B0123A7-4165-ED45-0AF9-3FAA289E2473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A260FE5-9FB0-1D39-E9AC-9704629333C5" name="TBL_EDIFICIOS_TBL_CAMPUS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:24:16 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56B31C77-6457-3D95-9F7C-7947E2DE59C1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

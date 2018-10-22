@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F45F1EF0-9C6E-2CB6-4F93-B58EC5211C84" containerWithKeyObject="7E943C6F-ACFC-61F2-7E07-97944ADC694D" localFKIndex="37995E66-EB31-B710-85A2-59BD956FEB32" name="TBL_SECCION_TBL_ASIGNATURAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:20:15 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<referredTableLongName>DB_UNAH.TBL_ASIGNATURAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7A226960-BB10-08B4-B327-A2E1761DB0CC</referredTableID>
+<keyObject>9738748F-EB26-0C73-5A22-49C42CD04CB0</keyObject>
+<referredKeyID>9738748F-EB26-0C73-5A22-49C42CD04CB0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ASIGNATURA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

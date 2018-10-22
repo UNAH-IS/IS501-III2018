@@ -8,9 +8,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_ASIGNATURA" id="8B688747-B4B5-EAAA-2F1E-773DDF075824">
+<Column name="CODIGO_ASIGNATURA" id="9C9D1B2A-12BA-9169-4C58-3238AFB86D9F">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2018-06-27 23:16:22 UTC</createdTime>
+<createdTime>2018-10-18 23:14:24 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,10 +18,13 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2038D458-DB74-9BA2-45CB-2E2603B80D75" referredColumn="4FFD730C-9D87-AF90-80DD-72C4645B0D59"/>
+</associations>
 </Column>
-<Column name="CODIGO_REQUISITO" id="D0E4B955-7FE6-A69D-B094-964AD096F4AD">
+<Column name="CODIGO_ASIGNATURA_REQUISITO" id="5E286AE4-8578-20D2-8F56-5BDF700F0A8F">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2018-06-27 23:16:27 UTC</createdTime>
+<createdTime>2018-10-18 23:14:32 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,10 +32,13 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5120D628-BC4A-28A5-9EB2-5A9470F0277C" referredColumn="4FFD730C-9D87-AF90-80DD-72C4645B0D59"/>
+</associations>
 </Column>
-<Column name="CODIGO_CARRERA" id="C7B68A64-E6DE-E917-F482-95F0055F56D9">
+<Column name="CODIGO_CARRERA" id="E76BAA7D-006B-ABC2-7E0B-F9CAC8BCA7B8">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2018-06-27 23:17:43 UTC</createdTime>
+<createdTime>2018-10-18 23:14:47 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,20 +46,53 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8F69901-A9C9-3F17-BA85-546ECDB43F31" referredColumn="CE3AA321-17A9-6F83-FB79-CAE8AC08E8B5"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4A8CD7E0-5C67-3444-717E-1B29E5AD039D" name="TBL_REQUISITOS_PK">
+<ind_PK_UK id="8ED89EA2-2553-EA0F-D9F3-3F893F3F8929" name="TBL_REQUISITOS_PK">
 <createdBy>Erick Marín</createdBy>
-<createdTime>2018-06-27 23:17:58 UTC</createdTime>
+<createdTime>2018-10-18 23:15:17 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8B688747-B4B5-EAAA-2F1E-773DDF075824"/>
-<colUsage columnID="D0E4B955-7FE6-A69D-B094-964AD096F4AD"/>
-<colUsage columnID="C7B68A64-E6DE-E917-F482-95F0055F56D9"/>
+<colUsage columnID="9C9D1B2A-12BA-9169-4C58-3238AFB86D9F"/>
+<colUsage columnID="5E286AE4-8578-20D2-8F56-5BDF700F0A8F"/>
+<colUsage columnID="E76BAA7D-006B-ABC2-7E0B-F9CAC8BCA7B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7D1ABC9-C426-E8AE-55DB-1C14DD65C735" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:14:24 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C9D1B2A-12BA-9169-4C58-3238AFB86D9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DAAC249-643D-9E06-D9DB-90A362BA71B6" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FKv1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:14:32 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E286AE4-8578-20D2-8F56-5BDF700F0A8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A663B62A-2A30-8391-4495-05A89D748D99" name="TBL_REQUISITOS_TBL_CARRERAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:14:47 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E76BAA7D-006B-ABC2-7E0B-F9CAC8BCA7B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

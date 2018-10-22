@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C42DE0F1-EF0D-AA35-6D73-E2811362196C" containerWithKeyObject="748D7AA0-1EBF-FEB9-0874-8B52CF77634D" localFKIndex="FE7B980D-AA52-2699-688C-5CF2FA0AF6DF" name="TBL_HISTORIAL_TBL_SECCION_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:43:20 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<referredTableLongName>DB_UNAH.TBL_SECCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7E943C6F-ACFC-61F2-7E07-97944ADC694D</referredTableID>
+<keyObject>3E50EEC2-C411-A51B-0C1E-A2C83E8DA88E</keyObject>
+<referredKeyID>3E50EEC2-C411-A51B-0C1E-A2C83E8DA88E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_SECCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
