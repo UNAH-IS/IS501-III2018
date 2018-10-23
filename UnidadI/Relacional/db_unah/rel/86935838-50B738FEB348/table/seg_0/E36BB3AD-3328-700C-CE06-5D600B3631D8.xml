@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E36BB3AD-3328-700C-CE06-5D600B3631D8" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_TIPOS_AULAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E36BB3AD-3328-700C-CE06-5D600B3631D8" schemaObject="D1EED87D-11B8-4A3C-7E54-671D91497B39" name="TBL_TIPOS_AULAS">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-08 15:46:19 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>

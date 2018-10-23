@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D15223A8-A060-C0F7-C10E-C965D26D979A" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_TIPOS_PERIODOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D15223A8-A060-C0F7-C10E-C965D26D979A" schemaObject="D1EED87D-11B8-4A3C-7E54-671D91497B39" name="TBL_TIPOS_PERIODOS">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-08 19:29:20 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>

@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="012C10FE-7A3A-DC90-88F3-64A67AC8536A" containerWithKeyObject="004285AC-1199-FAC0-CB6D-4A136547A2DC" localFKIndex="3848443F-FB9F-0AE7-6C1E-D8FB49318A8F" name="TBL_PERIODOS_TBL_TIPOS_PERIODOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="012C10FE-7A3A-DC90-88F3-64A67AC8536A" containerWithKeyObject="004285AC-1199-FAC0-CB6D-4A136547A2DC" localFKIndex="3848443F-FB9F-0AE7-6C1E-D8FB49318A8F" name="PER_TIP_PER_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-18 23:26:47 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
-<referredTableLongName>DB_UNAH.TBL_TIPOS_PERIODOS</referredTableLongName>
+<referredTableLongName>UNAH.TBL_TIPOS_PERIODOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>D15223A8-A060-C0F7-C10E-C965D26D979A</referredTableID>
 <keyObject>A0EF4F5C-50E2-B669-A53D-652A75E2D5C1</keyObject>

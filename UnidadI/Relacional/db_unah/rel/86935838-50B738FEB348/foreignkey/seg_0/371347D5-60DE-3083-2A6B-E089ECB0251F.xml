@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="371347D5-60DE-3083-2A6B-E089ECB0251F" containerWithKeyObject="7A226960-BB10-08B4-B327-A2E1761DB0CC" localFKIndex="8791DC22-74DB-F43B-C79E-C11F03538DF6" name="TBL_ASIGNATURAS_TBL_AREAS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="371347D5-60DE-3083-2A6B-E089ECB0251F" containerWithKeyObject="7A226960-BB10-08B4-B327-A2E1761DB0CC" localFKIndex="8791DC22-74DB-F43B-C79E-C11F03538DF6" name="ASI_ARE_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:49:39 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
-<referredTableLongName>DB_UNAH.TBL_AREAS</referredTableLongName>
+<referredTableLongName>UNAH.TBL_AREAS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>E3191BAD-704C-FDC3-D0E4-4036E98C9FC7</referredTableID>
 <keyObject>39A9FC49-F9C5-DE85-6E79-641698EC9F5E</keyObject>

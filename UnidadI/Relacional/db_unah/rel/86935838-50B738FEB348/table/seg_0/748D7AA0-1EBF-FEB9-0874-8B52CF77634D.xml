@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="748D7AA0-1EBF-FEB9-0874-8B52CF77634D" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_HISTORIAL">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="748D7AA0-1EBF-FEB9-0874-8B52CF77634D" schemaObject="D1EED87D-11B8-4A3C-7E54-671D91497B39" name="TBL_HISTORIAL">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-10 19:17:28 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -103,7 +103,7 @@
 <colUsage columnID="7F76E3B3-CD73-E3AD-5F60-178890F9610D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9015589F-368A-3B1D-D767-F479C19FCDC1" name="TBL_HISTORIAL_TBL_OBSERVACIONES_HISTORIAL_FK">
+<ind_PK_UK id="9015589F-368A-3B1D-D767-F479C19FCDC1" name="HIS_OBS_HIS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-19 23:08:18 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>

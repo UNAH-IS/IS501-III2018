@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="004D85B9-BD35-B678-A9DD-5B741CCB4859" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_TITULOS_X_EMPLEADO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="004D85B9-BD35-B678-A9DD-5B741CCB4859" schemaObject="D1EED87D-11B8-4A3C-7E54-671D91497B39" name="TBL_TITULOS_X_EMPLEADO">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-06 19:43:44 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -88,7 +88,7 @@
 <colUsage columnID="B66DF65E-7F51-6627-7AB4-845DF1660991"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="05FA17C4-E7FA-3D4A-3910-76135AF4B9EA" name="TBL_TITULOS_X_EMPLEADO_TBL_EMPLEADOS_FK">
+<ind_PK_UK id="05FA17C4-E7FA-3D4A-3910-76135AF4B9EA" name="TIT_X_EMP_EMP_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:28:53 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -98,7 +98,7 @@
 <colUsage columnID="6810ADC7-FEFD-B5FD-A6BC-C3FC3E762C72"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="25E2E12C-511D-BAA4-52B2-070243E7DA13" name="TBL_TITULOS_X_EMPLEADO_TBL_TITULOS_FK">
+<ind_PK_UK id="25E2E12C-511D-BAA4-52B2-070243E7DA13" name="TIT_X_EMP_TIT_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:28:59 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -108,7 +108,7 @@
 <colUsage columnID="0447C4D4-E5D1-6BEF-3673-DA91BFFC0FD5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A911648C-40B9-7DB6-8EC5-788AAB704EAB" name="TBL_TITULOS_X_EMPLEADO_TBL_UNIVERSIDADES_FK">
+<ind_PK_UK id="A911648C-40B9-7DB6-8EC5-788AAB704EAB" name="TIT_X_EMP_UNI_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:29:57 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>

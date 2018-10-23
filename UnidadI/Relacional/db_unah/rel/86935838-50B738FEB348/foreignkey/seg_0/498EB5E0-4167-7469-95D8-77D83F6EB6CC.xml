@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="498EB5E0-4167-7469-95D8-77D83F6EB6CC" containerWithKeyObject="31CD3A8F-B440-E023-1963-C0E2E41CB25E" localFKIndex="CB00EE31-5A5B-9A73-BF53-4A6B1326E000" name="TBL_LUGARES_TBL_TIPO_LUGARES_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="498EB5E0-4167-7469-95D8-77D83F6EB6CC" containerWithKeyObject="31CD3A8F-B440-E023-1963-C0E2E41CB25E" localFKIndex="CB00EE31-5A5B-9A73-BF53-4A6B1326E000" name="LUG_TIP_LUG_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:26:08 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
-<referredTableLongName>DB_UNAH.TBL_TIPO_LUGARES</referredTableLongName>
+<referredTableLongName>UNAH.TBL_TIPO_LUGARES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>F456E675-8BA2-2FB7-B903-8D1343147F80</referredTableID>
 <keyObject>39550923-95C7-EA47-C804-B776FA57C391</keyObject>

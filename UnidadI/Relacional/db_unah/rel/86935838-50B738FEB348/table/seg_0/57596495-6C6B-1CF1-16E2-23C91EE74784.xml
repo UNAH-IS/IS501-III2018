@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57596495-6C6B-1CF1-16E2-23C91EE74784" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_EMPLEADOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57596495-6C6B-1CF1-16E2-23C91EE74784" schemaObject="D1EED87D-11B8-4A3C-7E54-671D91497B39" name="TBL_EMPLEADOS">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-06 15:48:30 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -118,7 +118,7 @@
 <colUsage columnID="22D028B3-DE1E-35AE-D56A-D1F090BDAC6D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DF57B4F4-5E4D-F74E-8BC3-5B12BE31DE14" name="TBL_EMPLEADOS_TBL_TIPO_EMPLEADO_FK">
+<ind_PK_UK id="DF57B4F4-5E4D-F74E-8BC3-5B12BE31DE14" name="EMP_TIP_EMP_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:30:38 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -128,7 +128,7 @@
 <colUsage columnID="B30E763A-A710-E778-A286-8ED7CEF3532B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FE7AEAC4-9A83-EBEE-BB08-03F2D1FBAF82" name="TBL_EMPLEADOS_TBL_EMPLEADOS_FK">
+<ind_PK_UK id="FE7AEAC4-9A83-EBEE-BB08-03F2D1FBAF82" name="EMP_EMP_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:32:35 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>

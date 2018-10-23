@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="638A964C-A89D-15E9-AFCF-624B161BFEDD" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_REQUISITOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="638A964C-A89D-15E9-AFCF-624B161BFEDD" schemaObject="D1EED87D-11B8-4A3C-7E54-671D91497B39" name="TBL_REQUISITOS">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-07 19:28:24 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -65,7 +65,7 @@
 <colUsage columnID="E76BAA7D-006B-ABC2-7E0B-F9CAC8BCA7B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B7D1ABC9-C426-E8AE-55DB-1C14DD65C735" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FK">
+<ind_PK_UK id="B7D1ABC9-C426-E8AE-55DB-1C14DD65C735" name="REQ_ASIG_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-18 23:14:24 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -75,7 +75,7 @@
 <colUsage columnID="9C9D1B2A-12BA-9169-4C58-3238AFB86D9F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7DAAC249-643D-9E06-D9DB-90A362BA71B6" name="TBL_REQUISITOS_TBL_ASIGNATURAS_FKv1">
+<ind_PK_UK id="7DAAC249-643D-9E06-D9DB-90A362BA71B6" name="REQ_ASIG_FKv1">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-18 23:14:32 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -85,7 +85,7 @@
 <colUsage columnID="5E286AE4-8578-20D2-8F56-5BDF700F0A8F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A663B62A-2A30-8391-4495-05A89D748D99" name="TBL_REQUISITOS_TBL_CARRERAS_FK">
+<ind_PK_UK id="A663B62A-2A30-8391-4495-05A89D748D99" name="REQ_CAR_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-18 23:14:47 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>

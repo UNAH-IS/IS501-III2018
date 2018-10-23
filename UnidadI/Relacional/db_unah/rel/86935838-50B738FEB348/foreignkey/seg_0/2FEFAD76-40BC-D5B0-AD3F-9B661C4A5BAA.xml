@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FEFAD76-40BC-D5B0-AD3F-9B661C4A5BAA" containerWithKeyObject="E0AF177A-5459-4E9F-0AFA-CDC496511036" localFKIndex="42C3A8E2-1183-2428-E861-D2F78D008F39" name="TBL_DETALLE_EVALUACION_TBL_TIPOS_EVALUACIONES_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FEFAD76-40BC-D5B0-AD3F-9B661C4A5BAA" containerWithKeyObject="E0AF177A-5459-4E9F-0AFA-CDC496511036" localFKIndex="42C3A8E2-1183-2428-E861-D2F78D008F39" name="DET_EVA_TIP_EVA_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-19 23:12:06 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
-<referredTableLongName>DB_UNAH.TBL_TIPOS_EVALUACIONES</referredTableLongName>
+<referredTableLongName>UNAH.TBL_TIPOS_EVALUACIONES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>844ACEF5-BDD4-660E-CAB4-535BEEFAB2C6</referredTableID>
 <keyObject>E33C260A-9F1C-B55B-152C-A50306DD6EB9</keyObject>

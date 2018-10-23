@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53A05788-3D26-2BA4-9B55-3262753A212B" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_CARRERAS_X_ALUMNOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53A05788-3D26-2BA4-9B55-3262753A212B" schemaObject="D1EED87D-11B8-4A3C-7E54-671D91497B39" name="TBL_CARRERAS_X_ALUMNOS">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-03 17:07:43 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -82,7 +82,7 @@
 <colUsage columnID="CCBA2167-1450-D0AA-F6A3-1E41133A8529"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="316A5EC4-23C5-1AE7-3AF2-B7E9B6847F5B" name="TBL_CARRERAS_X_ALUMNOS_TBL_ALUMNOS_FK">
+<ind_PK_UK id="316A5EC4-23C5-1AE7-3AF2-B7E9B6847F5B" name="CAR_X_ALU_ALU_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:45:03 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -92,7 +92,7 @@
 <colUsage columnID="F9649E6D-2F28-70A2-214A-9F2EE0183C9F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7BF0E9C3-8665-80CD-D243-A02E5318EABD" name="TBL_CARRERAS_X_ALUMNOS_TBL_CARRERAS_FK">
+<ind_PK_UK id="7BF0E9C3-8665-80CD-D243-A02E5318EABD" name="CAR_X_ALU_CAR_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:45:10 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>

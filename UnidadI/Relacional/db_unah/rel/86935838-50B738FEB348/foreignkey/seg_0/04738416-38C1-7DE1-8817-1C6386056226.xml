@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04738416-38C1-7DE1-8817-1C6386056226" containerWithKeyObject="E0AF177A-5459-4E9F-0AFA-CDC496511036" localFKIndex="56D9099A-5760-DC43-4132-4D0B9C10BD9B" name="TBL_DETALLE_EVALUACION_TBL_HISTORIAL_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04738416-38C1-7DE1-8817-1C6386056226" containerWithKeyObject="E0AF177A-5459-4E9F-0AFA-CDC496511036" localFKIndex="56D9099A-5760-DC43-4132-4D0B9C10BD9B" name="DET_EVA_HIS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-19 23:11:34 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
-<referredTableLongName>DB_UNAH.TBL_HISTORIAL</referredTableLongName>
+<referredTableLongName>UNAH.TBL_HISTORIAL</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>748D7AA0-1EBF-FEB9-0874-8B52CF77634D</referredTableID>
 <keyObject>EB3D88C8-291B-4141-173A-4F057A2EACDB</keyObject>

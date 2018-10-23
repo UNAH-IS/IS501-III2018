@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="004285AC-1199-FAC0-CB6D-4A136547A2DC" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_PERIODOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="004285AC-1199-FAC0-CB6D-4A136547A2DC" schemaObject="D1EED87D-11B8-4A3C-7E54-671D91497B39" name="TBL_PERIODOS">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-08 19:26:17 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -17,6 +17,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_PERIODO" id="6E23FF11-F78B-8265-D2D3-F5FE71A3FD65">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2018-10-18 23:26:47 UTC</createdTime>
+<ownerDesignName>db_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="012C10FE-7A3A-DC90-88F3-64A67AC8536A" referredColumn="94C05DC7-9CA6-DD19-ED9D-EEE63BBD8FA3"/>
+</associations>
 </Column>
 <Column name="NOMBRE_PERIODO" id="7CFC5FE6-0CDE-070E-73BB-D7FCFD5C7BE2">
 <createdBy>ErickVladimir</createdBy>
@@ -52,20 +66,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TBL_TIPOS_PERIODOS_CODIGO_TIPO_PERIODO" id="6E23FF11-F78B-8265-D2D3-F5FE71A3FD65">
-<createdBy>Erick Marín</createdBy>
-<createdTime>2018-10-18 23:26:47 UTC</createdTime>
-<ownerDesignName>db_unah</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="012C10FE-7A3A-DC90-88F3-64A67AC8536A" referredColumn="94C05DC7-9CA6-DD19-ED9D-EEE63BBD8FA3"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0D5C6A8C-4301-A662-EBB0-132822F596B8" name="TBL_PERIODOS_PK">
@@ -79,7 +79,7 @@
 <colUsage columnID="3D1D63DE-AAB2-A518-01F4-506172C88416"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3848443F-FB9F-0AE7-6C1E-D8FB49318A8F" name="TBL_PERIODOS_TBL_TIPOS_PERIODOS_FK">
+<ind_PK_UK id="3848443F-FB9F-0AE7-6C1E-D8FB49318A8F" name="PER_TIP_PER_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-18 23:26:47 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>

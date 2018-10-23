@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E8DC797-0EBF-A4A0-35C6-C9741DDA6B0E" containerWithKeyObject="53A05788-3D26-2BA4-9B55-3262753A212B" localFKIndex="7BF0E9C3-8665-80CD-D243-A02E5318EABD" name="TBL_CARRERAS_X_ALUMNOS_TBL_CARRERAS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E8DC797-0EBF-A4A0-35C6-C9741DDA6B0E" containerWithKeyObject="53A05788-3D26-2BA4-9B55-3262753A212B" localFKIndex="7BF0E9C3-8665-80CD-D243-A02E5318EABD" name="CAR_X_ALU_CAR_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-17 23:45:10 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
-<referredTableLongName>DB_UNAH.TBL_CARRERAS</referredTableLongName>
+<referredTableLongName>UNAH.TBL_CARRERAS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B0F9AE43-A0C6-E714-156E-43D1C31B6ADD</referredTableID>
 <keyObject>418F9F4D-F4D1-2DA2-4FFE-3F4258EF485F</keyObject>

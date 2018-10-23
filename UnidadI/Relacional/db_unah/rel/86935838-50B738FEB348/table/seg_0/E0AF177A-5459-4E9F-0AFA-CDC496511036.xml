@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0AF177A-5459-4E9F-0AFA-CDC496511036" schemaObject="27252917-A8B4-BA8A-1136-4C4A40B00DCF" name="TBL_DETALLE_EVALUACION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0AF177A-5459-4E9F-0AFA-CDC496511036" schemaObject="D1EED87D-11B8-4A3C-7E54-671D91497B39" name="TBL_DETALLE_EVALUACION">
 <createdBy>ErickVladimir</createdBy>
 <createdTime>2017-02-10 19:22:15 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -69,7 +69,7 @@
 <colUsage columnID="77C81FB8-617A-352A-6089-BCDF23D5E8D1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="56D9099A-5760-DC43-4132-4D0B9C10BD9B" name="TBL_DETALLE_EVALUACION_TBL_HISTORIAL_FK">
+<ind_PK_UK id="56D9099A-5760-DC43-4132-4D0B9C10BD9B" name="DET_EVA_HIS_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-19 23:11:34 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
@@ -79,7 +79,7 @@
 <colUsage columnID="FCB3317A-030B-58DC-4BF8-12CFF97A39DA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="42C3A8E2-1183-2428-E861-D2F78D008F39" name="TBL_DETALLE_EVALUACION_TBL_TIPOS_EVALUACIONES_FK">
+<ind_PK_UK id="42C3A8E2-1183-2428-E861-D2F78D008F39" name="DET_EVA_TIP_EVA_FK">
 <createdBy>Erick Marín</createdBy>
 <createdTime>2018-10-19 23:12:06 UTC</createdTime>
 <ownerDesignName>db_unah</ownerDesignName>
