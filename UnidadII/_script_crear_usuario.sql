@@ -32,3 +32,5 @@ alter user system account unlock;
 alter user system identified by "nuevo_password";
 
 
+alter user system account unlock;
+alter user system identified by "oracle";
